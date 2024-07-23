@@ -29,7 +29,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Text.Heterocephalus
-  other-modules:       Text.Hamlet.Parse
+                     , Text.Hamlet.Parse
                      , Text.Heterocephalus.Parse
                      , Text.Heterocephalus.Parse.Control
                      , Text.Heterocephalus.Parse.Doc
